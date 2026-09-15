@@ -1,6 +1,6 @@
 # Benchmark مربوط به ذخیره‌سازی Weather در SQL Server
 
-این پروژه با SQL Server واقعی کار می‌کند و پنج سناریوی مستقل را با `BenchmarkDotNet` مقایسه می‌کند:
+ پروژه Weather.Performance با SQL Server واقعی کار می‌کند و پنج سناریوی مستقل را با `BenchmarkDotNet` مقایسه می‌کند:
 
 - `AppendOnly`
 - `Update`
