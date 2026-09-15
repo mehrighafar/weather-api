@@ -1,0 +1,27 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio and user-specific files
+.vs/
+*.user
+*.suo
+
+# Benchmark output
+**/BenchmarkDotNet.Artifacts/
+
+# Local databases and Docker data
+*.mdf
+*.ldf
+*.db
+*.sqlite
+**/docker-data/
+
+# OS files
+.DS_Store
+Thumbs.db

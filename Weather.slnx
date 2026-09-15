@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Weather.Performance.Tests/Weather.Performance.Tests.csproj" />
+  <Project Path="Weather.Performance/Weather.Performance.csproj" />
+  <Project Path="Weather.Tests/Weather.Tests.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="Weather/Weather.csproj" />
+</Solution>
